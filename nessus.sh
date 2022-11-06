@@ -23,7 +23,12 @@ echo ""
 
 
 echo " Descargando Nessus version de nessus mas actual para Kali Linux..."
-wget https://download1336.mediafire.com/8qhwo573jb7g/jinoapqghzqrhta/Nessus-10.3.0-debian9_amd64.deb
+
+curl --request GET \
+  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/nessus-updates-10.4.1.tar.gz' \
+  --output 'nessus-updates-10.4.1.tar.gz'
+
+
 sleep 1
 
 echo "Creando directorio de instalacion..."
