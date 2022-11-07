@@ -25,8 +25,8 @@ echo ""
 echo " Descargando Nessus version de nessus mas actual para Kali Linux..."
 
 curl --request GET \
-  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/nessus-updates-10.4.1.tar.gz' \
-  --output 'nessus-updates-10.4.1.tar.gz'
+  --url 'https://www.tenable.com/downloads/api/v2/pages/nessus/files/Nessus-8.15.6-ubuntu910_amd64.deb' \
+  --output 'Nessus-8.15.6-ubuntu910_amd64.deb'
 
 
 sleep 1
